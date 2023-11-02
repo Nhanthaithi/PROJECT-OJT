@@ -1,0 +1,124 @@
+.container {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: var(--fourth-color);
+  padding-bottom: 10px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.task {
+  padding: 10px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ccc;
+}
+
+.btn1 {
+  display: flex;
+  gap: 50px;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.btn1 button,
+.btn-edit button {
+  width: 80px;
+}
+
+.btn-edit {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.btn-list {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.btn-list button {
+  width: 210px;
+}
+
+.info {
+  display: flex;
+  width: 700px;
+  margin-bottom: 12px;
+}
+
+.info :nth-child(2) {
+  margin-left: 350px;
+  position: absolute;
+}
+
+.radio {
+  display: flex;
+  width: 700px;
+  gap: 200px;
+  margin-bottom: 12px;
+}
+
+.radio-detail {
+  position: absolute;
+  margin-left: 350px;
+  display: flex;
+  gap: 30px;
+}
+
+.memo {
+  display: flex;
+  flex-direction: column;
+  row-gap: 70px;
+  width: 700px;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.memo :nth-child(2) {
+  width: 300px;
+  position: absolute;
+  margin-left: 350px;
+  border: 1px solid black;
+}
+
+.blacklisted {
+  display: flex;
+  width: 700px;
+  gap: 200px;
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+
+#join[type='radio'],
+#withdrawn[type='radio'],
+#false[type='radio'],
+#true[type='radio'] {
+  border-color: #ccc;
+}
+
+#join[type='radio']:checked,
+#withdrawn[type='radio']:checked,
+#false[type='radio']:checked,
+#true[type='radio']:checked {
+  background-color: red;
+}
+
+.info label,
+.status,
+.black,
+.memo label {
+  margin-left: 35px;
+}
+
+.invalid {
+  position: absolute;
+  left: 350px;
+  top: 93px;
+}

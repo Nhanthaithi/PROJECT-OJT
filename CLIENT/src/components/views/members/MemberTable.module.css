@@ -1,0 +1,19 @@
+.wrapper-table {
+  margin-top: 50px;
+}
+
+.table-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: var(--secondary-color);
+}
+
+.member-table tr,
+.member-table td {
+  padding: 15px;
+}
+
+.no-member {
+  text-align: center;
+}

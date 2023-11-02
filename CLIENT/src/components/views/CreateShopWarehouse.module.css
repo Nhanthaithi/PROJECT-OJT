@@ -1,0 +1,15 @@
+.btn-cancel {
+  color: var(--third-color);
+  border: 1px solid black;
+}
+
+.btn-create {
+  color: var(--fourth-color);
+  background-color: var(--primary-color);
+  margin-right: 10px;
+}
+
+.btn-create:hover {
+  background-color: #5c883f;
+  font-style: italic;
+}

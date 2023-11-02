@@ -1,0 +1,13 @@
+.wrapper-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 50px 0;
+}
+
+.shop-warehouse-top {
+  /* width: 100%; */
+  /* background-color: var(--fourth-color); */
+  /* width: 100vw; */
+  /* height: 100%; */
+}

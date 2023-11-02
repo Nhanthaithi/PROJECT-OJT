@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+:root {
+  --primary-color: #4caf50;
+  --secondary-color: #ffc107;
+  --third-color: black;
+  --fourth-color: #e4e4e4;
+  --fifth-primary-color: #fff;
+  --six-color: #7f7f7f;
+  --seven-color: #6b6868;
+  --eigth-color: #ed7d39;
+  --nine-color: #61c3f3;
+  --five-color: white;
+  --border-color: #42719b;
+  --ten-color: #ddeaf6;
+  --red-color: red;
+}

@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+#mallwarecode {
+  margin-bottom: 0;
+}
+
+.background {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.backgroundForm {
+  padding: 20px;
+  border: 1px solid var(--border-color);
+  background-color: var(--ten-color);
+}
+
+.formCreateMall {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 35% 65%;
+  gap: 15px;
+}
+
+.formCreateMall input {
+  outline: none;
+}
+
+.usageStatus {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.checkBoxStatus {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkBoxStatus p {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+
+.btnFormMall {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#btnFormMallCancel {
+  text-decoration: none;
+  text-align: center;
+  width: 80px;
+  background-color: white;
+  border: 1px solid red;
+  color: red;
+}
+
+#btnFormMallSave {
+  width: 80px;
+  background-color: white;
+  border: 1px solid #70ad47;
+  color: #70ad47;
+}
+
+#postCodeP {
+  margin-bottom: 0;
+  font-size: 30px;
+}
+
+#inputPostCode {
+  width: 100%;
+  height: 30px;
+}
+
+.PostCode {
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+
+#inputPostCode1 {
+  width: 100%;
+  height: 30px;
+}
+
+.selectPrefectures {
+  height: 30px;
+  outline: none;
+}
+
+.formCreateMallInput input {
+  width: 100%;
+}
+
+.formCreateMallInput p {
+  margin-bottom: 0;
+}
+
+.formCreateMallSelect select {
+  width: 100%;
+}
+
+.PostCodeValidate {
+  display: flex;
+  flex-direction: column;
+}
+
+.PostCodeValidate2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.PostCodeValidate2 p:nth-child(2) {
+  margin-bottom: 0;
+  padding-left: 12px;
+}
+
+.PostCodeValidate p {
+  margin-bottom: 0;
+}
+
+.PostCodeValidate1 {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}

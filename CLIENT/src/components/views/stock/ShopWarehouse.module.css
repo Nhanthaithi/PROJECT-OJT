@@ -1,0 +1,38 @@
+.wrapper-form {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 40px;
+}
+
+.btn-display {
+  width: 20%;
+  background-color: var(--primary-color);
+}
+
+.shop-warehouse-input {
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  background-color: var(--fifth-primary-color);
+}
+
+.btn-search {
+  background-color: var(--primary-color);
+}
+
+.btn-search:hover,
+.btn-display:hover {
+  color: white;
+  font-style: italic;
+  background-color: var(--primary-color);
+}
+
+.wrapper-input {
+  display: grid;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.danger {
+  color: red;
+}

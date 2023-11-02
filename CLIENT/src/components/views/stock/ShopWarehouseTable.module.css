@@ -1,0 +1,39 @@
+.wrapper-table {
+  background-color: var(--fifth-primary-color);
+  box-shadow: 1px 2px 1px rgb(168, 179, 189);
+}
+
+.wrapper-thead {
+  padding: 10px 0;
+  border-bottom: 3px solid var(--six-color);
+}
+
+.wrapper-thead:hover {
+  background-color: var(--seven-color);
+  cursor: pointer;
+}
+
+.wrapper-tbody td {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.btn-detail {
+  border: none;
+  padding: 10px 0;
+  font-weight: 700;
+  color: var(--nine-color);
+  background-color: var(--fifth-primary-color);
+  padding: 0;
+}
+
+.btn-detail:hover {
+  font-style: italic;
+  background-color: white !important;
+  color: var(--nine-color);
+}
+
+.title-h3 {
+  color: var(--eigth-color);
+  font-weight: 600;
+}

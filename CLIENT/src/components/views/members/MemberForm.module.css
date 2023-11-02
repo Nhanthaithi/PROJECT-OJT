@@ -1,0 +1,29 @@
+.form-search-member {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.form-search-member div {
+  height: 65px;
+}
+
+.form-control {
+  width: 240px;
+  border: 2px solid var(--border-color);
+}
+
+.btn-search {
+  width: 80px;
+  background-color: var(--primary-color);
+  border: 2px solid var(--border-color);
+}
+
+.name,
+.name-kana {
+  width: 200px;
+}
+
+.status {
+  width: 110px;
+}

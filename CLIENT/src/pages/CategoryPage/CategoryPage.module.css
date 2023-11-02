@@ -1,0 +1,31 @@
+.box {
+  padding: 15px;
+}
+
+.wrapper {
+  display: flex;
+  padding: 32px 20px;
+  border-top: 1px solid var(--third-color);
+  border-bottom: 1px solid var(--third-color);
+  border-left: 2px solid var(--third-color);
+  border-right: 2px solid var(--third-color);
+  min-height: 900px;
+}
+
+.left {
+  padding: 7px;
+  border: 2px solid var(--third-color);
+  height: auto;
+  background-color: var(--fifth-primary-color);
+  flex: 2;
+}
+
+.right {
+  flex: 8;
+  border-right: 2px solid var(--nine-color);
+  border-top: 2px solid var(--nine-color);
+  border-bottom: 2px solid var(--nine-color);
+  height: auto;
+  background-color: var(--ten-color);
+  position: relative;
+}

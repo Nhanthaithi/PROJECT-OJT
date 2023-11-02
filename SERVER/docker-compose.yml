@@ -1,0 +1,31 @@
+version: '3'
+
+volumes:
+  rk_training_db:
+    driver: local
+
+services:
+  rk_training_db:
+    container_name: rk_training_db
+    image: mysql:8.0
+    environment:
+      - 'MYSQL_ROOT_PASSWORD=root'
+      - 'MYSQL_DATABASE=rk_training'
+      - 'MYSQL_USER=rikkei'
+      - 'MYSQL_PASSWORD=Password123'
+      - 'TZ=Asia/Ho_Chi_Minh'
+    command:
+      [
+          'mysqld',
+          '--character-set-server=utf8mb4',
+          '--collation-server=utf8mb4_unicode_ci',
+          '--log-output=FILE',
+          '--log-error=/tmp/mysql-errors.log'
+      ]
+    tty: true
+    restart: always
+    privileged: true
+    volumes:
+      - rk_training_db:/var/lib/mysql/
+    ports:
+      - '3307:3306'

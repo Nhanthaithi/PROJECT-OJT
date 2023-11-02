@@ -1,0 +1,49 @@
+.category-register {
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
+
+.box-register {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.btn-register-categories {
+  position: absolute;
+  margin-left: 10px;
+  right: 20%;
+  top: 15%;
+}
+
+.box-name-category {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.box-level-category {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+  width: 380px;
+}
+
+.select-name-category {
+  margin-left: 20px;
+  padding: 3px 20px;
+  width: 180px;
+}
+
+.btn-register-categories button {
+  padding: 4px 15px;
+  background-color: var(--primary-color);
+  border: 2px solid var(--five-color);
+  color: var(--five-color);
+  font-weight: 600;
+}
+
+.error-name {
+  color: var(--red-color);
+}

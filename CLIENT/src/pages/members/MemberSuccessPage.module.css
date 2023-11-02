@@ -1,0 +1,27 @@
+.member-success {
+  background-color: var(--fourth-color);
+  min-height: 100vh;
+  text-align: center;
+}
+
+.form-success {
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 40vh;
+}
+
+.form-success a {
+  text-decoration: none;
+  color: white;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.btn {
+  padding: 5px 30px;
+  background-color: var(--primary-color);
+  border: 2px solid var(--border-color);
+  color: white;
+}

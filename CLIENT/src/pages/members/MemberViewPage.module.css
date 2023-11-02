@@ -1,0 +1,15 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: var(--fourth-color);
+  min-height: 100vh;
+  font-size: 14px;
+}
+
+.form-pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}

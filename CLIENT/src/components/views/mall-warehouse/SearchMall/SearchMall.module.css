@@ -1,0 +1,45 @@
+.wrapperForm {
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 8px;
+  position: relative;
+}
+
+.wrapperForm form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btnSearch {
+  border: 2px solid var(--border-color);
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+  padding: 6px 20px;
+}
+
+.wrapperForm input {
+  border: 2px solid var(--border-color);
+  background-color: white;
+  border-radius: 5px;
+  padding: 6px 10px;
+}
+
+.btnCreate {
+  padding: 6px 20px;
+  border: 2px solid var(--border-color);
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  color: white;
+}
+
+.error {
+  position: absolute;
+  bottom: 0;
+  left: 7px;
+  top: 70px;
+  color: red;
+  font-size: 0.8em;
+}

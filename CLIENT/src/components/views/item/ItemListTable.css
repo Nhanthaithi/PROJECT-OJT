@@ -1,0 +1,17 @@
+.item-table tr th,
+.item-table tr td {
+  padding: 20px 10px;
+  vertical-align: middle;
+}
+
+.item-table tr th {
+  cursor: pointer;
+}
+
+.item-table td:nth-child(5) {
+  width: 150px;
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

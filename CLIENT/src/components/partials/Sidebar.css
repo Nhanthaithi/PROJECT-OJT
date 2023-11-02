@@ -1,0 +1,34 @@
+.sidebar {
+  min-height: 85vh;
+  position: sticky;
+  top: 60px;
+}
+
+.nav-link {
+  display: block;
+  padding: 12px 20px;
+  text-decoration: none;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+  cursor: pointer;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  background-color: var(--fourth-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-link > i.bi {
+  margin-left: auto;
+}
+
+.submenu {
+  background-color: var(--fourth-color);
+}
+
+.submenu .nav-link {
+  padding: 15px;
+}

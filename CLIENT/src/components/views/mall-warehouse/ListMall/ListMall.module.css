@@ -1,0 +1,39 @@
+.wrapperTable table {
+  text-align: center;
+  margin-top: 30px;
+  width: 100%;
+  box-shadow: 4px 4px #8d969daa;
+  table-layout: fixed;
+}
+
+.wrapperTable div button {
+  border: 2px solid #43729b;
+  padding: 10px 17px;
+  background-color: #70ad47;
+  color: white;
+}
+
+.wrapperTable table thead tr th {
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.wrapperTable table tbody tr td {
+  padding: 20px 0;
+  background-color: white;
+}
+
+.wrapperTable table thead tr th {
+  background-color: white;
+}
+
+.wrapperTable h4 {
+  margin-top: 20px;
+  color: #ed7d31;
+}
+
+.detail {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
